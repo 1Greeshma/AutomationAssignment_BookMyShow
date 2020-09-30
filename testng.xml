@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="greeSuit">
+    <listeners>
+        <listener class-name="commons.Driver"></listener>
+    </listeners>
+    <test name="TestCase001">
+        <classes>
+
+            <class name="TestScript.ListyourshowTS"></class>
+            <class name="TestScript.MovieTS"></class>
+            <class name="TestScript.OfferTS"></class>
+            <class name="TestScript.IcIcbankTS"></class>
+            <class name="TestScript.FooterTS"></class>
+            <class name="TestScript.LangaugeTS"></class>
+            <class name="TestScript.GoaTS"></class>
+            <class name="TestScript.OnwardMovieTS"></class>
+
+
+
+        </classes>
+    </test>
+</suite>
